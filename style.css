@@ -40,12 +40,17 @@ input {
   margin-left: 3%;
 }
 
+.todo-input {
+  border-radius: 5px 0 0 5px;
+}
+
 form button {
   color: #2043dd;
   background: #eeeeee;
   cursor: pointer;
   transition: all 0.3s ease;
   margin-right: 3%;
+  border-radius: 0 5px 5px 0;
 }
 form button:hover {
   background: #2043dd;
@@ -89,6 +94,10 @@ form button:hover {
   padding: 1rem;
   cursor: pointer;
   font-size: 1rem;
+}
+
+.delBtn {
+  border-radius: 0 5px 5px 0;
 }
 
 .doneBtn {
