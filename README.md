@@ -3,6 +3,7 @@
 ## Description
 
 Get Stuff Done is a simple to-do app to help quickly organize a simple to-do list. The user can input their to-do items and they will be displayed as a list. The user can then check the items off that have been completed. This helps visually boost productivity as we see more items get marked off the list. The user can select the view of the to-do list from three different choices: Done, Not Done, or All. Once the tasks are completed and no longer needed, they can be deleted by the user. New items can be added at any time.
+![screenshot of Get Stuff Done](https://github.com/JHaarla/ToDo-App/blob/master/GetStuffDoneScreenshot.jpg)
 
 ## Under the Hood
 
