@@ -125,6 +125,7 @@ select {
   appearance: none;
   outline: none;
   border: none;
+  border-radius: 5px;
 }
 
 .select {
@@ -149,6 +150,7 @@ select {
   padding: 1rem;
   pointer-events: none;
   transition: all 0.3s ease;
+  border-radius: 0 5px 5px 0;
 }
 
 .select:hover::after {
