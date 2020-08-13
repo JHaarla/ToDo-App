@@ -9,6 +9,9 @@ body {
   color: #eeeeee;
   font-family: "Fira Sans", sans-serif;
   min-height: 100vh;
+  /* min-width: 100vw; */
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
 }
 
 header {
@@ -17,7 +20,7 @@ header {
 
 header,
 form {
-  min-height: 15vh;
+  min-height: 12vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,11 +35,17 @@ form button {
   font-family: "Fira Sans", sans-serif;
 }
 
+input {
+  min-width: 40%;
+  margin-left: 3%;
+}
+
 form button {
   color: #2043dd;
   background: #eeeeee;
   cursor: pointer;
   transition: all 0.3s ease;
+  margin-right: 3%;
 }
 form button:hover {
   background: #2043dd;
@@ -47,10 +56,11 @@ form button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 2vh;
 }
 
 .todo-list {
-  min-width: 30%;
+  min-width: 40%;
   list-style: none;
 }
 
@@ -63,6 +73,7 @@ form button:hover {
   justify-content: space-between;
   align-items: center;
   transition: 0.5s ease;
+  border-radius: 5px;
 }
 
 .todo li {
@@ -115,7 +126,7 @@ select {
 
 select {
   color: #2043dd;
-  width: 10rem;
+  width: 12rem;
   cursor: pointer;
   padding: 1rem;
 }

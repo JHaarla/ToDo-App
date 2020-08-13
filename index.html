@@ -21,7 +21,7 @@
       <h1>Do These Things</h1>
     </header>
 
-    <form>
+    <!-- <form>
       <input type="text" class="todo-input" />
       <button class="todo-button" type="submit">
         <i class="fas fa-plus-square"></i>
@@ -33,7 +33,24 @@
           <option value="not-done">Not Done</option>
         </select>
       </div>
+    </form> -->
+
+    <form class="new-input">
+      <input type="text" class="todo-input" />
+      <button class="todo-button" type="submit">
+        <i class="fas fa-plus-square"></i>
+      </button>
     </form>
+    <form>
+      <div class="select">
+        <select name="todos" class="filter-todo">
+          <option value="all">All</option>
+          <option value="done">Done</option>
+          <option value="not-done">Not Done</option>
+        </select>
+      </div>
+    </form>
+
     <div class="todo-container">
       <ul class="todo-list"></ul>
     </div>
